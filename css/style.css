@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px dashed black;
-} */
+}
 
 :root {
     --bg-black: #000;
@@ -29,4 +29,8 @@
     border: 1px solid lightgrey;
     border-radius: 5px;
     text-align: center;
+}
+
+.jumbotron {
+    min-height: 500px;
 }
