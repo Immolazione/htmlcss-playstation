@@ -1,0 +1,32 @@
+/* * {
+    border: 1px dashed black;
+} */
+
+:root {
+    --bg-black: #000;
+}
+
+.bg-black {
+    background-color: var(--bg-black);
+}
+
+.top-header {
+    min-height: 30px;
+}
+
+.top-header > svg {
+    height: 20px;
+    line-height: 30px;
+}
+
+.bottom-header {
+    min-height: 50px;
+}
+
+.bi-list::before {
+    font-size: 30px;
+    width: 50px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    text-align: center;
+}
