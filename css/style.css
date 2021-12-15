@@ -54,6 +54,10 @@
     width: 300px;
 }
 
+.rounded-hand-3 {
+    border-radius: 3rem;
+}
+
 /* FOOTER LOGO SIZES */
 #language-globe {
     width: 20px;
