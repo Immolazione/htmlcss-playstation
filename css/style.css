@@ -21,8 +21,6 @@
     height: 50px;
 }
 
-.bottom-header
-
 .bi-list::before {
     font-size: 30px;
     width: 50px;
@@ -33,6 +31,7 @@
 
 /* JUMBOTRONS BG IMAGES */
 .jumbotron {
+    padding-top: 300px;
     margin-top: 80px;
     min-height: 600px;
     background-image: url(../img/jumbo-bg.png);
