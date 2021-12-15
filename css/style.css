@@ -18,7 +18,7 @@
 }
 
 .bottom-header {
-    min-height: 50px;
+    height: 50px;
 }
 
 .bottom-header
@@ -33,19 +33,26 @@
 
 /* JUMBOTRONS BG IMAGES */
 .jumbotron {
-    padding-top: 350px;
     margin-top: 80px;
     min-height: 600px;
     background-image: url(../img/jumbo-bg.png);
     background-position: top center;
     background-size: cover;
 }
+
+.jumbotron > .row > .col > img {
+    width: 300px;
+}
+
 .middle-page-jumbotron {
-    padding-top: 150px;
     min-height: 600px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: top center;
     background-size: cover;
+}
+
+.middle-page-jumbotron > .row > .col > img {
+    width: 300px;
 }
 
 /* FOOTER LOGO SIZES */
