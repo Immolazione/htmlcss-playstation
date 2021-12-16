@@ -68,7 +68,7 @@
     transition: transform .5s;
 }
 
-.thumbnails > div > img:hover {
+.thumbnails > div > div > img:hover {
     transform: translateY(-20px);
 }
 
